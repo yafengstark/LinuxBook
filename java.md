@@ -21,6 +21,7 @@ java -jar shareniu.jar &
 
 方式三
 
-nohup java -jar shareniu.jar &
+
+nohup java -jar wxdev.jar >temp.txt &
 
 nohup 意思是不挂断运行命令,当账户退出或终端关闭时,程序仍然运行
