@@ -1,0 +1,7 @@
+
+
+## linux
+
+## windows
+
+start nginx
