@@ -72,7 +72,19 @@ docker exec -it  76fadc25821f  /bin/bash
 
 
 
+### 搜索可用镜像
 
+docker search postgis
+
+
+
+### 创建容器并运行
+
+
+
+```shell
+docker run --name postgis -e POSTGRES_PASSWORD=hellopg -d mdillon/postgis
+```
 
 ### 启动和关闭容器
 
